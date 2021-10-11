@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/macos,linux,windows,node,git,react
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,linux,windows,node,git,react
+# Created by https://www.toptal.com/developers/gitignore/api/windows,node,linux,macos,git,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,node,linux,macos,git,visualstudiocode
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
@@ -185,18 +185,21 @@ dist
 # Serverless Webpack directories
 .webpack/
 
-### react ###
-.DS_*
-**/*.backup.*
-**/*.back.*
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
 
-node_modules
+# Local History for Visual Studio Code
+.history/
 
-*.sublime*
-
-psd
-thumb
-sketch
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -224,4 +227,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,linux,windows,node,git,react
+# End of https://www.toptal.com/developers/gitignore/api/windows,node,linux,macos,git,visualstudiocode
