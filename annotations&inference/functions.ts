@@ -39,9 +39,3 @@ const logWeather = ({date, weather}: {date: Date, weather: String}):void=>{
 };
 
 logWeather(todaysWeather);
-
-
-
-
-
-
